@@ -8,17 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		81A908E12C1EA9F40053BFC8 /* Todo_JSONphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908E02C1EA9F40053BFC8 /* Todo_JSONphApp.swift */; };
-		81A908E32C1EA9F40053BFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908E22C1EA9F40053BFC8 /* ContentView.swift */; };
 		81A908E52C1EA9F50053BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A908E42C1EA9F50053BFC8 /* Assets.xcassets */; };
 		81A908E82C1EA9F50053BFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A908E72C1EA9F50053BFC8 /* Preview Assets.xcassets */; };
+		81A908F12C1EAAC30053BFC8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908EE2C1EAAC30053BFC8 /* Todo.swift */; };
+		81A908F22C1EAAC30053BFC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908EF2C1EAAC30053BFC8 /* User.swift */; };
+		81A908F92C1EAAF10053BFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908F32C1EAAF10053BFC8 /* ContentView.swift */; };
+		81A908FA2C1EAAF10053BFC8 /* DetailTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908F42C1EAAF10053BFC8 /* DetailTodoView.swift */; };
+		81A908FB2C1EAAF10053BFC8 /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908F52C1EAAF10053BFC8 /* DetailUserView.swift */; };
+		81A908FC2C1EAAF10053BFC8 /* OrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908F62C1EAAF10053BFC8 /* OrangeView.swift */; };
+		81A908FD2C1EAAF10053BFC8 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908F72C1EAAF10053BFC8 /* TodosView.swift */; };
+		81A909032C1EAB0E0053BFC8 /* DetailTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908FE2C1EAB0E0053BFC8 /* DetailTodoViewModel.swift */; };
+		81A909042C1EAB0E0053BFC8 /* DetailUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908FF2C1EAB0E0053BFC8 /* DetailUserViewModel.swift */; };
+		81A909052C1EAB0E0053BFC8 /* TodosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909002C1EAB0E0053BFC8 /* TodosViewModel.swift */; };
+		81A909062C1EAB0E0053BFC8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909012C1EAB0E0053BFC8 /* UserViewModel.swift */; };
+		81A9090F2C1EAB2A0053BFC8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909072C1EAB2A0053BFC8 /* Endpoint.swift */; };
+		81A909102C1EAB2A0053BFC8 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909082C1EAB2A0053BFC8 /* HTTPError.swift */; };
+		81A909112C1EAB2A0053BFC8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909092C1EAB2A0053BFC8 /* HTTPMethod.swift */; };
+		81A909122C1EAB2A0053BFC8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9090A2C1EAB2A0053BFC8 /* NetworkService.swift */; };
+		81A909132C1EAB2A0053BFC8 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9090B2C1EAB2A0053BFC8 /* ParsingService.swift */; };
+		81A909142C1EAB2A0053BFC8 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9090C2C1EAB2A0053BFC8 /* URLManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81A908DD2C1EA9F40053BFC8 /* Todo+JSONph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo+JSONph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A908E02C1EA9F40053BFC8 /* Todo_JSONphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_JSONphApp.swift; sourceTree = "<group>"; };
-		81A908E22C1EA9F40053BFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81A908E42C1EA9F50053BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A908E72C1EA9F50053BFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A908EE2C1EAAC30053BFC8 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		81A908EF2C1EAAC30053BFC8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		81A908F32C1EAAF10053BFC8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81A908F42C1EAAF10053BFC8 /* DetailTodoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTodoView.swift; sourceTree = "<group>"; };
+		81A908F52C1EAAF10053BFC8 /* DetailUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
+		81A908F62C1EAAF10053BFC8 /* OrangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeView.swift; sourceTree = "<group>"; };
+		81A908F72C1EAAF10053BFC8 /* TodosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		81A908FE2C1EAB0E0053BFC8 /* DetailTodoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTodoViewModel.swift; sourceTree = "<group>"; };
+		81A908FF2C1EAB0E0053BFC8 /* DetailUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailUserViewModel.swift; sourceTree = "<group>"; };
+		81A909002C1EAB0E0053BFC8 /* TodosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosViewModel.swift; sourceTree = "<group>"; };
+		81A909012C1EAB0E0053BFC8 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		81A909072C1EAB2A0053BFC8 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		81A909082C1EAB2A0053BFC8 /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		81A909092C1EAB2A0053BFC8 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		81A9090A2C1EAB2A0053BFC8 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		81A9090B2C1EAB2A0053BFC8 /* ParsingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		81A9090C2C1EAB2A0053BFC8 /* URLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				81A908E02C1EA9F40053BFC8 /* Todo_JSONphApp.swift */,
-				81A908E22C1EA9F40053BFC8 /* ContentView.swift */,
+				81A908F02C1EAAC30053BFC8 /* Model */,
+				81A908F82C1EAAF10053BFC8 /* View */,
+				81A909022C1EAB0E0053BFC8 /* ViewModel */,
 				81A908E42C1EA9F50053BFC8 /* Assets.xcassets */,
 				81A908E62C1EA9F50053BFC8 /* Preview Content */,
 			);
@@ -65,6 +99,60 @@
 				81A908E72C1EA9F50053BFC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81A908F02C1EAAC30053BFC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81A908EE2C1EAAC30053BFC8 /* Todo.swift */,
+				81A908EF2C1EAAC30053BFC8 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81A908F82C1EAAF10053BFC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81A908F32C1EAAF10053BFC8 /* ContentView.swift */,
+				81A908F42C1EAAF10053BFC8 /* DetailTodoView.swift */,
+				81A908F52C1EAAF10053BFC8 /* DetailUserView.swift */,
+				81A908F62C1EAAF10053BFC8 /* OrangeView.swift */,
+				81A908F72C1EAAF10053BFC8 /* TodosView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81A909022C1EAB0E0053BFC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81A908FE2C1EAB0E0053BFC8 /* DetailTodoViewModel.swift */,
+				81A908FF2C1EAB0E0053BFC8 /* DetailUserViewModel.swift */,
+				81A909002C1EAB0E0053BFC8 /* TodosViewModel.swift */,
+				81A909012C1EAB0E0053BFC8 /* UserViewModel.swift */,
+				81A9090E2C1EAB2A0053BFC8 /* Services */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81A9090D2C1EAB2A0053BFC8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				81A909072C1EAB2A0053BFC8 /* Endpoint.swift */,
+				81A909082C1EAB2A0053BFC8 /* HTTPError.swift */,
+				81A909092C1EAB2A0053BFC8 /* HTTPMethod.swift */,
+				81A9090A2C1EAB2A0053BFC8 /* NetworkService.swift */,
+				81A9090B2C1EAB2A0053BFC8 /* ParsingService.swift */,
+				81A9090C2C1EAB2A0053BFC8 /* URLManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		81A9090E2C1EAB2A0053BFC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81A9090D2C1EAB2A0053BFC8 /* Networking */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +225,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A908E32C1EA9F40053BFC8 /* ContentView.swift in Sources */,
+				81A908FB2C1EAAF10053BFC8 /* DetailUserView.swift in Sources */,
+				81A909062C1EAB0E0053BFC8 /* UserViewModel.swift in Sources */,
+				81A909102C1EAB2A0053BFC8 /* HTTPError.swift in Sources */,
+				81A908FC2C1EAAF10053BFC8 /* OrangeView.swift in Sources */,
+				81A9090F2C1EAB2A0053BFC8 /* Endpoint.swift in Sources */,
+				81A909032C1EAB0E0053BFC8 /* DetailTodoViewModel.swift in Sources */,
+				81A908FA2C1EAAF10053BFC8 /* DetailTodoView.swift in Sources */,
+				81A909042C1EAB0E0053BFC8 /* DetailUserViewModel.swift in Sources */,
+				81A909112C1EAB2A0053BFC8 /* HTTPMethod.swift in Sources */,
+				81A908F22C1EAAC30053BFC8 /* User.swift in Sources */,
+				81A909122C1EAB2A0053BFC8 /* NetworkService.swift in Sources */,
+				81A909142C1EAB2A0053BFC8 /* URLManager.swift in Sources */,
+				81A908F12C1EAAC30053BFC8 /* Todo.swift in Sources */,
+				81A908F92C1EAAF10053BFC8 /* ContentView.swift in Sources */,
+				81A909132C1EAB2A0053BFC8 /* ParsingService.swift in Sources */,
+				81A908FD2C1EAAF10053BFC8 /* TodosView.swift in Sources */,
+				81A909052C1EAB0E0053BFC8 /* TodosViewModel.swift in Sources */,
 				81A908E12C1EA9F40053BFC8 /* Todo_JSONphApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
